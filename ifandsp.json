@@ -1,0 +1,1963 @@
+{
+  "dns": {
+    "independent_cache": true,
+    "rules": [
+      {
+        "action": "reject",
+        "network": [
+          "udp"
+        ],
+        "port": [
+          443
+        ],
+        "port_range": []
+      }
+    ],
+    "servers": [
+      {
+        "server": "1.1.1.1",
+        "domain_resolver": "dns-direct",
+        "type": "https",
+        "detour": "Auto",
+        "tag": "dns-remote"
+      },
+      {
+        "type": "udp",
+        "server": "112.215.198.248",
+        "tag": "dns-direct"
+      }
+    ]
+  },
+  "inbounds": [
+    {
+      "endpoint_independent_nat": true,
+      "address": [
+        "172.19.0.1/28"
+      ],
+      "mtu": 9000,
+      "sniff": true,
+      "auto_route": true,
+      "auto_redirect": false,
+      "sniff_override_destination": false,
+      "stack": "mixed",
+      "tag": "tun-in",
+      "type": "tun"
+    }
+  ],
+  "log": {
+    "level": "panic"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "clash.db",
+      "store_fakeip": false
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "dashboard",
+      "external_ui_download_url": "",
+      "external_ui_download_detour": "Auto",
+      "default_mode": "Rule"
+    }
+  },
+  "outbounds": [
+    {
+      "type": "urltest",
+      "tag": "Auto",
+      "outbounds": [
+        "Telkomsel-AA1",
+        "Telkomsel-A00",
+        "Telkomsel-B00",
+        "Telkomsel-A1",
+        "Telkomsel-A2",
+        "Telkomsel-A3",
+        "Telkomsel-A5",
+        "Telkomsel-A6",
+        "Telkomsel-A7",
+        "Telkomsel-A9",
+        "Telkomsel-A10",
+        "Telkomsel-A13",
+        "Telkomsel-A15",
+        "Telkomsel-A23",
+        "Telkomsel-A24",
+        "Telkomsel-A25",
+        "Telkomsel-A26",
+        "Telkomsel-A29",
+        "Telkomsel-A30",
+        "Telkomsel-A35",
+        "Telkomsel-A45",
+        "Telkomsel-A47",
+        "Telkomsel-A48",
+        "Telkomsel-A52",
+        "Telkomsel-A53",
+        "Telkomsel-A54",
+        "Telkomsel-A61",
+        "Telkomsel-A67",
+        "Telkomsel-A68",
+        "Telkomsel-A80",
+        "Telkomsel-A81",
+        "Telkomsel-A82",
+        "Telkomsel-A86",
+        "Telkomsel-A87",
+        "Telkomsel-A88",
+        "Telkomsel-A89",
+        "Telkomsel-A90",
+        "Telkomsel-A91",
+        "Telkomsel-A92",
+        "Telkomsel-A93",
+        "Telkomsel-A94",
+        "Telkomsel-A95",
+        "Telkomsel-B1",
+        "Telkomsel-B2",
+        "Telkomsel-B3",
+        "Telkomsel-B5",
+        "Telkomsel-B6",
+        "Telkomsel-B7",
+        "Telkomsel-B9",
+        "Telkomsel-B10",
+        "Telkomsel-B13",
+        "Telkomsel-B15",
+        "Telkomsel-B23",
+        "Telkomsel-B24",
+        "Telkomsel-B25",
+        "Telkomsel-B26",
+        "Telkomsel-B29",
+        "Telkomsel-B35",
+        "Telkomsel-B45",
+        "Telkomsel-B47",
+        "Telkomsel-B48",
+        "Telkomsel-B52",
+        "Telkomsel-B53",
+        "Telkomsel-B54",
+        "Telkomsel-B61",
+        "Telkomsel-B67",
+        "Telkomsel-B68",
+        "Telkomsel-B80",
+        "Telkomsel-B81",
+        "Telkomsel-B82",
+        "Telkomsel-B86",
+        "Telkomsel-B87",
+        "Telkomsel-B88",
+        "Telkomsel-B89",
+        "Telkomsel-B90",
+        "Telkomsel-B91",
+        "Telkomsel-B92",
+        "Telkomsel-B93",
+        "Telkomsel-B94",
+        "Telkomsel-B95"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "30s",
+      "tolerance": 5
+    },
+    {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "support.zoom.us",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "support.zoom.us.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "support.zoom.us.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-AA1"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "support.zoom.us",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "support.zoom.us.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "support.zoom.us.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B00"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "bakrie.ac.id",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "bakrie.ac.id.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "bakrie.ac.id.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A00"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.20.6.62",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A1"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.20.7.62",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A2"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.22.21.245",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A3"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.14.196",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A5"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.15.196",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A6"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.74.70",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A7"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.22.129",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A9"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.22.20.245",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A10"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.7.14",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A13"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.74.32",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A15"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.25.139",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A23"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.24.139",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A24"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.17.3.81",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A25"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.17.2.81",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A26"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.2.2",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A29"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.3.2",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A30"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.160.90",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A35"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "api.midtrans.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A45"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "www.udemy.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A47"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server":         "Telkomsel.udemy.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A48"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "chat.sociomile.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A52"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "xlcare.sociomile.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A53"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "chat-xlcare.sociomile.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A54"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "fikom.esaunggul.ac.id",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A61"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "bakrie.ac.id",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A67"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "www.bakrie.ac.id",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A68"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.6.172",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A80"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.7.172",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A81"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.71.127",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A82"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.7.14",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A86"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "www.uii.ac.id",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "www.uii.ac.id.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "www.uii.ac.id.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A87"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.68.44",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A88"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.2.86",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A89"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.3.86",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A90"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "untar.ac.id",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "untar.ac.id.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "untar.ac.id.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A91"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "162.159.134.42",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A92"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "ganecadigital.com",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "ganecadigital.com.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "ganecadigital.com.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A93"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.168.40",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A94"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "support.zoom.us",
+    "server_port": 443,
+    "tls": {
+      "enabled": true,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-A95"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.20.6.62",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B1"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.20.7.62",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B2"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.22.21.245",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B3"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.14.196",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B5"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.15.196",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B6"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.74.70",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B7"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.22.129",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B9"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.22.20.245",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B10"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.7.14",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B13"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.74.32",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B15"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.25.139",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B23"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.24.139",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B24"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.17.3.81",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B25"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.17.2.81",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B26"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.2.2",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B29"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.18.160.90",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B35"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "api.midtrans.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B45"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "www.udemy.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B47"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server":         "Telkomsel.udemy.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B48"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "chat.sociomile.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B52"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "xlcare.sociomile.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B53"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "chat-xlcare.sociomile.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B54"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "fikom.esaunggul.ac.id",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B61"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "bakrie.ac.id",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B67"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "www.bakrie.ac.id",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B68"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.6.172",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B80"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.7.172",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B81"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.71.127",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B82"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.7.14",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": true,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B86"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "www.uii.ac.id",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "www.uii.ac.id.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "www.uii.ac.id.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B87"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.68.44",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B88"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.2.86",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B89"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "104.26.3.86",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B90"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "untar.ac.id",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "untar.ac.id.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "untar.ac.id.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B91"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "162.159.134.42",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B92"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "ganecadigital.com",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "ganecadigital.com.red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "ganecadigital.com.red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B93"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "172.67.168.40",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B94"
+  },
+  {
+    "alter_id": 0,
+    "packet_encoding": "",
+    "security": "auto",
+    "server": "support.zoom.us",
+    "server_port": 80,
+    "tls": {
+      "enabled": false,
+      "insecure": false,
+      "server_name": "red.premi.my.id"
+    },
+    "transport": {
+      "headers": {
+        "Host": "red.premi.my.id"
+      },
+      "path": "/vmess",
+      "type": "ws"
+    },
+    "uuid": "ec6493b8-d338-432a-a0ba-e3635ffc4e87",
+    "type": "vmess",
+    "tag": "Telkomsel-B95"
+  },
+    {
+      "tag": "direct",
+      "type": "direct"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "Auto",
+    "default_domain_resolver": {
+      "server": "dns-direct",
+      "strategy": "ipv4_only"
+    },
+    "rule_set": [],
+    "rules": [
+      {
+        "action": "hijack-dns",
+        "port": [
+          53
+        ]
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": [
+          "dns"
+        ]
+      },
+      {
+        "action": "reject",
+        "network": [
+          "udp"
+        ],
+        "port": [
+          443
+        ],
+        "port_range": []
+      },
+      {
+        "action": "reject",
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}
