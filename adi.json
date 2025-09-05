@@ -37,7 +37,7 @@
       "mtu": 9000,
       "sniff": true,
       "auto_route": true,
-      "auto_redirect": false,
+      "auto_idxirect": false,
       "sniff_override_destination": false,
       "stack": "mixed",
       "tag": "tun-in",
@@ -160,16 +160,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "support.zoom.us.red.premi.my.id"
+      "server_name": "support.zoom.us.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "support.zoom.us.red.premi.my.id"
+        "Host": "support.zoom.us.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-AA1"
   },
@@ -182,16 +182,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "support.zoom.us.red.premi.my.id"
+      "server_name": "support.zoom.us.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "support.zoom.us.red.premi.my.id"
+        "Host": "support.zoom.us.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B00"
   },
@@ -204,16 +204,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "bakrie.ac.id.red.premi.my.id"
+      "server_name": "bakrie.ac.id.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "bakrie.ac.id.red.premi.my.id"
+        "Host": "bakrie.ac.id.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A00"
   },
@@ -226,16 +226,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A1"
   },
@@ -248,16 +248,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A2"
   },
@@ -270,16 +270,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A3"
   },
@@ -292,16 +292,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A5"
   },
@@ -314,16 +314,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A6"
   },
@@ -336,16 +336,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A7"
   },
@@ -358,16 +358,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A9"
   },
@@ -380,16 +380,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A10"
   },
@@ -402,16 +402,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A13"
   },
@@ -424,16 +424,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A15"
   },
@@ -446,16 +446,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A23"
   },
@@ -468,16 +468,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A24"
   },
@@ -490,16 +490,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A25"
   },
@@ -512,16 +512,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A26"
   },
@@ -534,16 +534,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A29"
   },
@@ -556,16 +556,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A30"
   },
@@ -578,16 +578,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A35"
   },
@@ -600,16 +600,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A45"
   },
@@ -622,16 +622,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A47"
   },
@@ -644,16 +644,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A48"
   },
@@ -666,16 +666,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A52"
   },
@@ -688,16 +688,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A53"
   },
@@ -710,16 +710,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A54"
   },
@@ -732,16 +732,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A61"
   },
@@ -754,16 +754,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A67"
   },
@@ -776,16 +776,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A68"
   },
@@ -798,16 +798,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A80"
   },
@@ -820,16 +820,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A81"
   },
@@ -842,16 +842,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A82"
   },
@@ -864,16 +864,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A86"
   },
@@ -886,16 +886,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "www.uii.ac.id.red.premi.my.id"
+      "server_name": "www.uii.ac.id.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "www.uii.ac.id.red.premi.my.id"
+        "Host": "www.uii.ac.id.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A87"
   },
@@ -908,16 +908,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A88"
   },
@@ -930,16 +930,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A89"
   },
@@ -952,16 +952,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A90"
   },
@@ -974,16 +974,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "untar.ac.id.red.premi.my.id"
+      "server_name": "untar.ac.id.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "untar.ac.id.red.premi.my.id"
+        "Host": "untar.ac.id.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A91"
   },
@@ -996,16 +996,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A92"
   },
@@ -1018,16 +1018,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "ganecadigital.com.red.premi.my.id"
+      "server_name": "ganecadigital.com.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "ganecadigital.com.red.premi.my.id"
+        "Host": "ganecadigital.com.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A93"
   },
@@ -1040,16 +1040,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A94"
   },
@@ -1062,16 +1062,16 @@
     "tls": {
       "enabled": true,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-A95"
   },
@@ -1084,16 +1084,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B1"
   },
@@ -1106,16 +1106,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B2"
   },
@@ -1128,16 +1128,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B3"
   },
@@ -1150,16 +1150,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B5"
   },
@@ -1172,16 +1172,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B6"
   },
@@ -1194,16 +1194,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B7"
   },
@@ -1216,16 +1216,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B9"
   },
@@ -1238,16 +1238,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B10"
   },
@@ -1260,16 +1260,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B13"
   },
@@ -1282,16 +1282,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B15"
   },
@@ -1304,16 +1304,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B23"
   },
@@ -1326,16 +1326,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B24"
   },
@@ -1348,16 +1348,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B25"
   },
@@ -1370,16 +1370,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B26"
   },
@@ -1392,16 +1392,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B29"
   },
@@ -1414,16 +1414,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B35"
   },
@@ -1436,16 +1436,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B45"
   },
@@ -1458,16 +1458,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B47"
   },
@@ -1480,16 +1480,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B48"
   },
@@ -1502,16 +1502,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B52"
   },
@@ -1524,16 +1524,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B53"
   },
@@ -1546,16 +1546,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B54"
   },
@@ -1568,16 +1568,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B61"
   },
@@ -1590,16 +1590,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B67"
   },
@@ -1612,16 +1612,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B68"
   },
@@ -1634,16 +1634,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B80"
   },
@@ -1656,16 +1656,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B81"
   },
@@ -1678,16 +1678,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B82"
   },
@@ -1700,16 +1700,16 @@
     "tls": {
       "enabled": false,
       "insecure": true,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B86"
   },
@@ -1722,16 +1722,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "www.uii.ac.id.red.premi.my.id"
+      "server_name": "www.uii.ac.id.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "www.uii.ac.id.red.premi.my.id"
+        "Host": "www.uii.ac.id.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B87"
   },
@@ -1744,16 +1744,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B88"
   },
@@ -1766,16 +1766,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B89"
   },
@@ -1788,16 +1788,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B90"
   },
@@ -1810,16 +1810,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "untar.ac.id.red.premi.my.id"
+      "server_name": "untar.ac.id.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "untar.ac.id.red.premi.my.id"
+        "Host": "untar.ac.id.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B91"
   },
@@ -1832,16 +1832,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B92"
   },
@@ -1854,16 +1854,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "ganecadigital.com.red.premi.my.id"
+      "server_name": "ganecadigital.com.idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "ganecadigital.com.red.premi.my.id"
+        "Host": "ganecadigital.com.idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B93"
   },
@@ -1876,16 +1876,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B94"
   },
@@ -1898,16 +1898,16 @@
     "tls": {
       "enabled": false,
       "insecure": false,
-      "server_name": "red.premi.my.id"
+      "server_name": "idx.premi.my.id"
     },
     "transport": {
       "headers": {
-        "Host": "red.premi.my.id"
+        "Host": "idx.premi.my.id"
       },
       "path": "/vmess",
       "type": "ws"
     },
-    "uuid": "9eff8cbf-3ef0-43e6-a780-6971a1ac4f7e",
+    "uuid": "2e8f896e-06d6-4a24-90f6-f45ce87dcff4",
     "type": "vmess",
     "tag": "Telkomsel-B95"
   },
